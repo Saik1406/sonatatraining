@@ -13,9 +13,9 @@ else:
 n=input("enter a number:") #THis is another method
 reversed_number=n[::-1]
 if(reversed_number==n):
-    print("the given number",reversed_number,"is palindrome")
+    print("the given number",n,"is palindrome")
 else:
-    print("the given number is",reversed_number,"not palindrome")
+    print("the given number is",n,"not palindrome")
 
 
 
